@@ -4,14 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knowledge Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/style.css">
 </head>
-<body>
+<body class="inter-normal">
     <header>
+        
+        <nav>
+            <img src="./assets/logo-navbar.png" alt="" srcset="">
+            <ul>
+                <li><a class="dark_2" href="#Features">Features</a></li>
+                <li><a class="dark_2" href="#How It Works">How It Works</a></li>
+                <li><a class="dark_2" href="#Why It's Different">Why It's Different</a></li>
+            </ul>
+            <button class="btn-primary">Get Early Access</button>
+        </nav>
+        <div class="banner">
+            <div class="banner-contetnt">
+                <button class="btn-3">Early Access now Open</button>
+                <h1 class="banner-heading">
+                    <span class="bnh-u">Structured Thinking,</span><br><span class="bnh-d">Not Just Note-Taking.</span>
+                </h1>
+                <p class="banner-description">
+                    A private space to store notes, links, and learning summaries — designed to<br>
+                    help you think clearly, connect ideas, and turn learning into long-term knowledge.
+                </p>
+                <div class="lower-banner-buttons">
+                    <button class="btn-primary">Start Building Your Vault</button>
+                <button class="btn-2">See How It Works</button>
+                </div>
 
+            </div>
+            
+        </div>
+
+        <section class="notes">
+            <h3 class="notes-title text-center">Notes don't fail, Structure does.</h3>
+            <p class="notes-desc text-center">You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
+
+            <div class="notes-container">
+                <!-- .notes*4>img+h4.note-title+p.note-description -->
+                <div class="note">
+                    <img class="notes-img" src="assets/Vector.png" alt="">
+                    <h4 class="note-title">Scattered notes</h4>
+                    <p class="note-description grey-color">Your ideas live in 10 different apps, none of them connected.</p>
+                </div>
+                <div class="note">
+                    <img class="notes-img" src="assets/Bookmarks.png" alt="">
+                    <h4 class="note-title">Bookmark overload</h4>
+                    <p class="note-description grey-color">Hundreds of saved links you'll never revisit or remember.</p>
+                </div>
+                <!-- <div class="note">
+                    <img src="" alt="">
+                    <h4 class="note-title"></h4>
+                    <p class="note-descriptio"></p>
+                </div> -->
+                <div class="note">
+                    <img class="notes-img" src="./assets/Brain.png" alt="">
+                    <h4 class="note-title">No Idea Connections</h4>
+                    <p class="note-description grey-color">Insights stay isolated, never building into bigger understanding.</p>
+                </div>
+                <div class="note">
+                    <img class="notes-img" src="assets/Info.png" alt="">
+                    <h4 class="note-title">Forgetting what<br>you learned</h4>
+                    <p class="note-description grey-color">Knowledge fades because there's no system to retain it.</p>
+                </div>
+
+        </section>
     </header>
 
     <footer>
-        <p>&copy; 2026 Knowledge Vault. All rights reserved.</p>
+        <p>&copy; 2026 Personal Knowledge Vault. All rights reserved.</p>
     </footer>
 
 </body>
